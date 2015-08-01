@@ -60,7 +60,7 @@ if __name__ == "__main__":
     last30(sent)
     last30(inbox)
     M = imaplib.IMAP4_SSL('imap.gmail.com')
-    username = raw_input('Username: ')   #'wels.raspi@gmail.com'
+    username = raw_input('Username: ')   
     password = getpass.getpass()
     try:
         M.login(username, password)
